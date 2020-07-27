@@ -1,0 +1,587 @@
+/*===============================
+    Basic Properties starts
+================================*/
+body
+{
+    overflow-x: hidden;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*===============================
+    Basic Properties ends
+================================*/
+
+/*===============================
+    Navigation starts
+================================*/
+.navbar 
+{
+    padding: 24px 0px;
+    border-bottom: none !important;
+    transition: all 0.9s ease-in-out;
+}
+
+.navbar-inverse
+{
+    background-color: transparent !important;
+}
+
+.navbar ul li a
+{
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 17px;
+    transition: all 0.5s ease-in;
+}
+
+.navbar ul li a:hover
+{
+    color: #8cf442 !important;
+    background-color: none !important;
+}
+
+.navbar-toggle
+{
+    border: 1px solid white !important;
+    color: white !important;
+    transition: all 0.5s ease-in;
+}
+
+.icon-bar
+{
+    color: white !important;
+    background-color: white !important;
+}
+
+.navbar-toggle:hover
+{
+    background-color: #8cf442 !important;
+}
+
+/*
+.location
+{
+    border: 1px solid white;
+    border-radius: 50px;
+}
+*/
+
+.navbar-inverse .navbar-collapse
+{
+    border-color: transparent !important;
+}
+/*===============================
+    Navigation ends
+================================*/
+
+/*=======================================
+Sticky navigation with background color
+=========================================*/
+.secondary
+{
+    background-color: #34495e !important;
+}
+
+/*===============================
+    Slider starts
+================================*/
+.slider
+{
+    width: 100%;
+    height: 700px;
+    background: url(../images/sheanuttree.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.slider-overlay
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.slider-content
+{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+
+.icons .fa
+{
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+.cta-div
+{
+    margin-top: 30px;
+}
+
+.btn1
+{
+    padding: 13px 18px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 13px;;
+    border: 2px solid white;
+    border-top-left-radius: 15px;
+    transition: all 0.5s ease-in;
+    margin-right: -6px;
+}
+
+.btn1:hover{
+    text-decoration: none;
+    color: white;
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+}
+
+/*
+.btn2
+{
+    padding: 13px 18px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid white;
+    border-bottom-right-radius: 15px;
+    transition: all 0.5s ease-in;
+    margin-right: 10px;
+}
+
+.btn2:hover{
+    text-decoration: none;
+    color: white;
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+}
+*/
+
+/*
+.social-networks a.fa
+{
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    margin-right: 2px;
+    transition: all 0.5s ease-in;
+}
+
+.social-networks a.fa:hover
+{
+    text-decoration: none;
+    background-color: deepskyblue;
+    color: white;
+    border: 1px solid deepskyblue;
+}
+*/
+
+.rawsheabutter
+{
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+}
+       
+#bannerImage img 
+{
+    position: absolute;
+    right: 0;
+    left: 0;
+    box-shadow: 0 0 30px black;
+    border-radius: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.slider .text, .slider .typed-cursor
+{
+    display: inline;
+    font-size: 65px;
+}
+
+.primary
+{
+    color: white;
+    
+}
+
+.typed-cursor
+{
+  opacity: 1;
+  animation: blink 0.7s infinite;
+  -webkit-animation:blink 0.7s infinite;
+  -mox-animation:blink 0.7s infinite;  
+}
+
+@keyframes blink
+{
+    0%
+    {
+        opacity: 1;
+    }
+    
+    
+    50%s
+    {
+        opacity: 0;
+    }
+    
+    100%
+    {
+        opacity: 1;
+    }   
+}
+
+@-webkit-keyframes blink
+{
+    0%
+    {
+        opacity: 1;
+    }
+    
+    
+    50%
+    {
+        opacity: 0;
+    }
+    
+    100%
+    {
+        opacity: 1;
+    }
+  
+}
+
+@-moz-keyframes blink
+{
+    0%
+    {
+        opacity: 1;
+    }
+    
+    
+    50%
+    {
+        opacity: 0;
+    }
+    
+    100%
+    {
+        opacity: 1;
+    }
+}  
+/*=======================================
+            Slider ends
+=========================================*/
+
+/*=======================================
+            About Us styles
+=========================================*/
+.about-wrap
+{
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    overflow: hidden;
+    padding: 25px 35px;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    z-index: 9;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+}
+
+.about-wrap::before, .about-wrap::after
+{
+    content: "";
+    height: 300%;
+    position: absolute;
+    transform: rotate(360deg);
+    width: 120%;
+    z-index: -9;
+    transition: all 0.5s;
+    opacity: 0;
+    background: #36695e;
+}
+
+.about-wrap::before
+{
+    top: -37px;
+    left: 100%;
+}
+
+.about-wrap:hover:before
+{
+    left: -27px;
+    opacity: 1;
+}
+
+.about-wrap::after
+{
+    right: 100%;
+    bottom: -37px;
+}
+
+.about-wrap:hover:after
+{
+    right: -27px;
+    opacity: 1;
+}
+
+.about-wrap:hover
+{
+    color: white;
+}
+
+.about-wrap:h3
+{
+    color: white;
+}
+
+.about-wrap:hover h3
+{
+    color: white;
+}
+
+.about-wrap:hover h3:after
+{
+    background-color: white;
+}
+
+.about-wrap h3
+{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.about-wrap p
+{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+/*=======================================
+            Products styles
+=========================================*/
+.carousel-inner img
+{
+    border: 3px solid #38895e;
+    padding: 5px;
+}
+.products
+
+{
+    background-image: url(../images/shea_tree.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.products .carousel-indicators
+{
+   bottom: -35px;  
+}
+
+/*=======================================
+            Our Team styles
+=========================================*/
+.teams
+{
+    padding-top: 80px;
+    padding-bottom: 155px;
+}
+
+.teams .carousel-indicators li
+{
+    background-color: black;
+}
+
+.teams .carousel-indicators 
+{
+    bottom: -40px; 
+}
+
+/*=======================================
+            Gallery styles
+=========================================*/
+.row.no-gutters [class*=col-]
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-wrapper
+{
+    overflow: hidden;
+}
+
+.img-wrapper img
+{
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.img-wrapper img:hover
+{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+/*=======================================
+            Test/Permit styles
+=========================================*/
+.docs
+{
+    margin-top: 25px;
+    background-color: #e3e5e8;
+}
+
+.img-wrappers img
+{
+    height: 500px;
+    margin-bottom: 10px;
+    cursor: zoom-in;
+}
+
+/*=======================================
+            Contact area styles
+=========================================*/
+.form-control
+{
+    border-radius: 0px !important;
+    border: 1px solid #34495e !important;
+}
+
+.contact-form button.btn
+{
+    font-weight: 700;
+    padding: 8px 15px;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+
+.contact-infos
+{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    background: darkcyan;
+    padding-top: 35px;
+    padding-top: 35px;
+}
+
+.contact-infos .fa
+{
+    color: white;
+    font-size: 26px;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+}
+
+.contact-infos p
+{
+    color: white;
+    margin-top: 15px;
+}
+
+/*=======================================
+         Footer area styles
+=========================================*/
+.footer
+{
+    background: url(../images/Black-Wood-Footer-Background.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    background-attachment: fixed;
+    color: white;
+}
+
+.social-icon a
+{
+    margin: 0 16px 20px 16px;
+    display: inline;
+}
+
+.footer .fa
+{
+    font-size: 20px;
+    color: deepskyblue;
+    width: 40px;
+    height: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: white;
+    line-height: 2;
+    border: solid #34495e;
+    text-align: center;
+    transition: all 0.7s ease-in;
+}
+
+.social-icon a:hover .fa
+{
+    border: solid white;
+    transform: rotate(360deg);
+}
+
+.bordernow
+{
+    width: 40px;
+    border-bottom: 2px solid white;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
